@@ -28,4 +28,5 @@ class Show < ActiveRecord::Base
   def self.shows_by_alphabetical_order
     #'SELECT * FROM shows ORDER BY("name")'
     self.order(:name)
+  end 
 end 
